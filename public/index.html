@@ -6,7 +6,7 @@
     <title>Document</title>
     <link href="styles.css" rel="stylesheet">
 </head>
-<body class="text-gray-700">
+<body class="bg-gray-100 text-gray-700">
     <div><!--Content-->
         <div>
             <nav>
@@ -16,7 +16,7 @@
                     </h1>
                 </div>
                 <ul>
-                    <li>
+                    <li class="text-gray-700 font-bold">
                         <a href="">
                             <span>Home</span>
                         </a>
@@ -35,9 +35,9 @@
             </nav>
         </div><!--End Nav-->
         <main class="px-16 py-6">
-            <div>
-                <a href="#">Log in</a>
-                <a href="#">Sign Up</a>
+            <div class="flex justify-end">
+                <a href="#" class="text-primary">Log in</a>
+                <a href="#" class="text-primary ml-2">Sign Up</a>
             </div>
 
             <header>
@@ -49,11 +49,36 @@
                 <h4 class="font-bold mt-12 pb-2 border-b border-gray-200">Latest Recepies</h4>
                 <div class="mt-8">
                     <!--Cards go here-->
-                    <div>
-                        <img src="img/soup.jpg" alt=""/>
-                        <div>
-                            <span>5 bean Chilli stew</span>
-                            <span>Recepie by Mario</span>
+                    <div class="card">
+                        <img src="img/soup.jpg" alt="" class="w-full h-32 sm:h-48 object-cover"/>
+                        <div class="p-4">
+                            <span class="font-bold">5 bean Chilli stew</span>
+                            <span class="block">Recepie by Mario</span>
+                        </div>
+                        <div class="badge">
+                            <span>25 mins</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/pasta.jpg" alt="" class="w-full h-32 sm:h-48 object-cover"/>
+                        <div class="p-4">
+                            <span class="font-bold">5 bean Chilli stew</span>
+                            <span class="block">Recepie by Mario</span>
+                        </div>
+                        <div class="badge">
+                            <span>25 mins</span>
+                        </div>
+                    </div>
+
+                    <div class="card">
+                        <img src="img/pizza.jpg" alt="" class="w-full h-32 sm:h-48 object-cover"/>
+                        <div class="p-4">
+                            <span class="font-bold">5 bean Chilli stew</span>
+                            <span class="block">Recepie by Mario</span>
+                        </div>
+                        <div class="badge">
+                            <span>25 mins</span>
                         </div>
                     </div>
                 </div>
@@ -61,8 +86,8 @@
                 <div class="mt-8">
                     <!--Cards go here-->
                 </div>
-                <div>
-                    <div>Load more...</div>
+                <div class="flex justify-center">
+                    <div class="bg-secondary-100 text-secondary-200">Load more...</div>
                 </div>
             </div>
         </main>
