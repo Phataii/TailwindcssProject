@@ -32813,6 +32813,20 @@ video {
   color: rgba(136, 136, 131, var(--tw-text-opacity))
 }
 
+.btn{
+  cursor: pointer;
+  border-radius: 9999px;
+  padding-left: 0.75rem;
+  padding-right: 0.75rem;
+  padding-top: 0.5rem;
+  padding-bottom: 0.5rem;
+  font-size: 0.75rem;
+  line-height: 1rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+}
+
 @media (min-width: 640px) {
   .sm\:container {
     width: 100%;
